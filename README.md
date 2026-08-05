@@ -1,367 +1,444 @@
-# 🚀 React Complete Learning Roadmap
+# ⚛️ React Master Notes
 
-> Status Legend:
-> - ⏳ Not Started
-> - 🔄 In Progress
-> - ✅ Completed
+## 📚 Chapters
 
----
+### Chapter 1 — React Foundation
 
-# Phase 1 — React Fundamentals
-
-## 1. JavaScript for React
-Status: ✅
-
-Topics Covered
-
-- JavaScript Revision
-- Variables
-- Data Types
-- Operators
-- Functions
-- Arrow Functions
-- Scope
-- Hoisting
-- Closures
-- Arrays
-- Objects
-- Destructuring
-- Spread Operator
-- Rest Operator
-- Template Literals
-- Modules
-- Import / Export
-- Promises
-- Async Await
-- Array Methods
-- DOM Basics
-- Event Loop
-- ES6+ Features
+* What is React?
+* Why React?
+* Features of React
+* Virtual DOM
+* Real DOM vs Virtual DOM
+* SPA (Single Page Application)
+* React Environment Setup
+* Vite Setup
+* Project Structure
+* npm & npx Basics
 
 ---
 
-## 2. React Foundation
-Status: ✅
+### Chapter 2 — JSX
 
-Topics Covered
-
-- What is React
-- Why React
-- History
-- SPA
-- Virtual DOM Introduction
-- Declarative UI
-- Component-Based Architecture
-- React Project Structure
-- React Installation
-- React File Structure
-- npm
-- npx
-- Vite
-- React Folder Structure
-- React Philosophy
+* JSX Introduction
+* JSX Rules
+* Expressions in JSX
+* Embedding JavaScript
+* Fragments
+* Rendering Elements
+* JSX Best Practices
 
 ---
 
-## 3. JSX Masterclass
-Status: ✅
+### Chapter 3 — Components
 
-Topics Covered
-
-- JSX
-- JSX Rules
-- JSX vs HTML
-- JSX vs JavaScript
-- React.createElement()
-- Babel
-- Fragments
-- Expressions
-- Curly Braces
-- Inline Styles
-- JSX Comments
-- JSX Attributes
-- Rendering JSX
-- JSX Best Practices
+* Functional Components
+* Component Structure
+* Component Composition
+* Reusable Components
+* Export & Import
+* Component Best Practices
 
 ---
 
-## 4. Components Masterclass
-Status: ✅
+### Chapter 4 — Props
 
-Topics Covered
-
-- Components
-- Functional Components
-- Class Components (Overview)
-- Component Tree
-- Parent Components
-- Child Components
-- Nested Components
-- Component Composition
-- Import / Export
-- Reusable Components
-- Folder Organization
-- Best Practices
+* Props
+* Passing Props
+* Props Destructuring
+* Children Props
+* Default Props
+* Props Best Practices
 
 ---
 
-## 5. Props Masterclass
-Status: ✅
+### Chapter 5 — State
 
-Topics Covered
-
-- Props
-- Parent to Child Data Flow
-- One Way Data Flow
-- Props.children
-- Default Props
-- Destructuring
-- Passing Objects
-- Passing Arrays
-- Passing Functions
-- Spread Props
-- Prop Drilling
-- Props Immutability
-- Best Practices
+* State Introduction
+* useState
+* Updating State
+* Multiple States
+* Object State
+* Array State
+* Functional Updates
 
 ---
 
-## 6. State Masterclass
-Status: ✅
+### Chapter 6 — Event Handling
 
-Topics Covered
-
-- State
-- useState Basics
-- Updating State
-- Object State
-- Array State
-- Nested State
-- Functional Updates
-- Previous State
-- Lazy Initialization
-- State Queue
-- Automatic Batching
-- Async Updates
-- State Immutability
-- State Best Practices
+* Event Handling
+* Event Object
+* Passing Arguments
+* Event Binding
+* Forms Events
 
 ---
 
-## 7. Event Handling
-Status: ✅
+### Chapter 7 — Conditional Rendering
 
-Topics Covered
-
-- Synthetic Events
-- Event Object
-- Mouse Events
-- Keyboard Events
-- Input Events
-- Form Events
-- onClick
-- onChange
-- onSubmit
-- preventDefault()
-- stopPropagation()
-- Passing Parameters
-- Event Bubbling
-- Event Capturing
-- Best Practices
+* if/else
+* Ternary Operator
+* Logical AND (&&)
+* Conditional Components
+* Conditional UI
 
 ---
 
-## 8. Conditional Rendering
-Status: ✅
+### Chapter 8 — Lists & Keys
 
-Topics Covered
-
-- if
-- if...else
-- Ternary Operator
-- &&
-- ||
-- Optional Chaining
-- Returning null
-- Loading UI
-- Error UI
-- Authentication Rendering
-- Role Based Rendering
-- Conditional Styling
+* Rendering Lists
+* map()
+* Keys
+* Dynamic Rendering
+* Best Practices
 
 ---
 
-## 9. Lists & Keys
-Status: ✅
+### Chapter 9 — Forms
 
-Topics Covered
-
-- Rendering Lists
-- Array.map()
-- Keys
-- Stable Keys
-- Unique Keys
-- Index as Key
-- Nested Lists
-- Filtering Lists
-- Sorting Lists
-- Reconciliation with Keys
-- Performance Tips
+* Forms Introduction
+* Controlled Components
+* Input Handling
+* Textarea
+* Select
+* Checkbox
+* Radio Button
+* Form Submission
+* Validation Basics
 
 ---
 
-## 10. Forms & Controlled Components
-Status: ✅
+### Chapter 10 — Rendering & Re-rendering
 
-Topics Covered
-
-- Controlled Components
-- Uncontrolled Components
-- Input
-- Textarea
-- Select
-- Checkbox
-- Radio Button
-- Multiple Inputs
-- Form State
-- Validation
-- Error Handling
-- Form Submission
-- File Upload
-- Loading State
+* Rendering
+* Re-rendering
+* Render Cycle
+* Causes of Re-render
+* Preventing Unnecessary Re-renders
 
 ---
 
-## 11. Rendering & Re-rendering
-Status: ✅
+### Chapter 11 — React Hooks Introduction
 
-Topics Covered
-
-- Rendering
-- Initial Render
-- Re-render
-- Render Cycle
-- Render Phase
-- Commit Phase
-- Virtual DOM
-- Reconciliation
-- Diffing Algorithm
-- Fiber (Overview)
-- Parent Re-render
-- Child Re-render
-- State Rendering
-- Props Rendering
-- Context Rendering
-- Strict Mode Rendering
-- Preventing Unnecessary Re-renders
-- React.memo (Introduction)
+* What are Hooks?
+* Hooks Rules
+* Why Hooks?
+* Hook Lifecycle
 
 ---
 
-# Phase 2 — Hooks
+### Chapter 12 — useState
 
-## 12. Hooks Foundation
-Status: ⏳
-
-Topics Covered
-
-- What are Hooks
-- Why Hooks
-- Rules of Hooks
-- Hook Call Order
-- Hook Identity
-- Built-in Hooks
-- Custom Hooks
-- Hook Lifecycle
-- Hook Best Practices
+* useState Basics
+* Updating State
+* Object State
+* Array State
+* Functional Updates
 
 ---
 
-## 13. useState Masterclass
-Status: ⏳
+### Chapter 13 — useEffect
+
+* useEffect Basics
+* Dependency Array
+* Cleanup Function
+* API Calls
+* Common Use Cases
 
 ---
 
-## 14. useEffect Masterclass
-Status: ⏳
+### Chapter 14 — useRef
+
+* useRef Basics
+* DOM Manipulation
+* Mutable Values
+* Focus Management
 
 ---
 
-## 15. useRef Masterclass
-Status: ⏳
+### Chapter 15 — useMemo
+
+* Memoization
+* Performance Optimization
+* Expensive Calculations
 
 ---
 
-## 16. useMemo Masterclass
-Status: ⏳
+### Chapter 16 — useCallback
+
+* Callback Memoization
+* Function Optimization
+* React.memo Integration
 
 ---
 
-## 17. useCallback Masterclass
-Status: ⏳
+### Chapter 17 — useContext
+
+* Context API
+* Context Provider
+* useContext
+* Global State
 
 ---
 
-## 18. useContext Masterclass
-Status: ⏳
+### Chapter 18 — useReducer
+
+* Reducer Pattern
+* Dispatch
+* Actions
+* Complex State Management
 
 ---
 
-## 19. useReducer Masterclass
-Status: ⏳
+### Chapter 19 — Custom Hooks
+
+* Creating Custom Hooks
+* Reusable Logic
+* Hook Best Practices
 
 ---
 
-## 20. Custom Hooks
-Status: ⏳
+### Chapter 20 — State Management
+
+* Local State
+* Global State
+* Context API
+* Context + useReducer
+* Redux Toolkit (Overview)
+* Zustand (Overview)
+* State Management Best Practices
 
 ---
 
-# Phase 3 — Advanced React
+### Chapter 21 — React.memo
 
-## 21. React.memo
-Status: ⏳
-
-## 22. Portals
-Status: ⏳
-
-## 23. Error Boundaries
-Status: ⏳
-
-## 24. Lazy Loading & Suspense
-Status: ⏳
-
-## 25. React Router
-Status: ⏳
-
-## 26. Performance Optimization
-Status: ⏳
-
-## 27. React 19 Features
-Status: ⏳
+* React.memo
+* Memoization
+* Performance Benefits
 
 ---
 
-# Phase 4 — Projects
+### Chapter 22 — Portals
 
-- Portfolio
-- Dashboard
-- E-commerce
-- Chat Application
-- Admin Panel
-- Authentication
-- Blog
-- REST API Project
+* React Portal
+* Modal
+* Tooltip
+* Portal Use Cases
 
 ---
 
-# Phase 5 — Interview Preparation
+### Chapter 23 — forwardRef
 
-- React Interview Questions
-- Coding Questions
-- Debugging Questions
-- MCQs
-- Scenario-Based Questions
-- Live Coding
-- Revision Notes
-- Cheat Sheets
+* forwardRef
+* Parent to Child Ref
+* Real-world Usage
+
+---
+
+### Chapter 24 — useImperativeHandle
+
+* useImperativeHandle
+* Custom Ref Methods
+* Parent Control
+
+---
+
+### Chapter 25 — Lazy Loading & Suspense
+
+* React.lazy
+* Suspense
+* Fallback UI
+* Code Splitting
+
+---
+
+### Chapter 26 — Error Boundaries
+
+* Error Boundaries
+* Fallback UI
+* Error Handling
+
+---
+
+### Chapter 27 — React Router
+
+* Basic Routing
+* BrowserRouter
+* Routes
+* Route
+* Link
+* NavLink
+* Navigate
+* useNavigate
+* Dynamic Routes
+* URL Parameters
+* Nested Routes
+* Layout Routes
+* Outlet
+* Search Params
+* Loaders
+* Actions
+* Protected Routes
+* Lazy Routes
+* Error Routes
+* Route Guards
+* Authentication Flow
+* Advanced Routing
+
+---
+
+### Chapter 28 — Performance Optimization
+
+* React.memo
+* useMemo
+* useCallback
+* Memoization
+* Code Splitting
+* Lazy Loading
+* Bundle Optimization
+* React DevTools Profiler
+
+---
+
+### Chapter 29 — React 19 Features
+
+* React 19 Overview
+* New Features
+* New Hooks (if available)
+* use()
+* Actions
+* Asset Loading
+* Migration Guide
+
+---
+
+### Chapter 30 — API Integration
+
+* API
+* Client-Server
+* Request
+* Response
+* JSON
+* HTTP
+* REST API
+* Endpoints
+* Query Parameters
+* Path Parameters
+* GET
+* POST
+* PUT
+* PATCH
+* DELETE
+* Headers
+* Status Codes
+* Fetch API
+* Axios
+* Promise
+* Async/Await
+* Loading State
+* Error Handling
+* CRUD Operations
+* Multiple API Calls
+* API Best Practices
+
+---
+
+### Chapter 31 — Authentication (JWT)
+
+* Authentication
+* Authorization
+* JWT
+* Session vs JWT
+* Access Token
+* Refresh Token
+* Login Flow
+* Logout Flow
+* Token Storage
+* Token Expiry
+* Security Best Practices
+
+---
+
+### Chapter 32 — Protected Routes
+
+* Protected Routes
+* Public Routes
+* Private Routes
+* Route Guards
+* Authentication Check
+* Authorization Check
+* Role-Based Access
+* Redirects
+* Unauthorized Access
+
+---
+
+### Chapter 33 — Custom Hooks in Production
+
+* API Hooks
+* Authentication Hooks
+* LocalStorage Hooks
+* Form Hooks
+* Reusable Hooks
+* Hook Architecture
+
+---
+
+### Chapter 34 — Folder Structure & Architecture
+
+* Project Architecture
+* Folder Structure
+* Feature-based Structure
+* Component-based Structure
+* pages
+* components
+* layouts
+* hooks
+* context
+* services
+* api
+* utils
+* assets
+* constants
+* routes
+* styles
+* Naming Conventions
+* Scalable Architecture
+
+---
+
+### Chapter 35 — Environment Variables
+
+* .env
+* VITE_
+* import.meta.env
+* API Base URL
+* Development vs Production
+* .gitignore
+* Environment Best Practices
+
+---
+
+### Chapter 36 — Deployment
+
+* Production Build
+* npm run build
+* Vercel
+* Netlify
+* GitHub Deployment
+* Environment Variables
+* Custom Domain
+* Deployment Best Practices
+
+---
+
+### Chapter 37 — Testing
+
+* Testing Introduction
+* Unit Testing
+* Integration Testing
+* End-to-End Testing
+* React Testing Library
+* Jest
+* Assertions
+* Mocking
+* Testing Best Practices
