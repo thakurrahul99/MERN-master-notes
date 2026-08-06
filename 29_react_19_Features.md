@@ -897,12 +897,3 @@ const [optState, setOptState] = useOptimistic(realState, updateFn); // [cite: 81
 const resolvedVal = use(myPromise); // [cite: 273, 274]
 ```
 
----
-
-### Mini Assignment
-1. Vite parameters sandbox target settings use karke ek custom login form compile karein [cite: 411, 412].
-2. useActionState hook integrate karke dynamic messages update display systems check run kijiye [cite: 81, 273].
-3. useFormStatus triggers checks button layouts check loops verification models confirm check targets are active [cite: 12, 273].
-
----
-
