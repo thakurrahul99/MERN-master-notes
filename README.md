@@ -1,16 +1,6 @@
 # 🚀 MERN Stack Complete Journey
 
-<p align="center">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/thakurrahul99/MERN-Stack-Complete-Journey?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/thakurrahul99/MERN-Stack-Complete-Journey?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/thakurrahul99/MERN-Stack-Complete-Journey?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/thakurrahul99/MERN-Stack-Complete-Journey?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-</p>
-
-<p align="center">
 
 ### 📚 A Complete Beginner → Production Level MERN Stack Repository
 
